@@ -13,7 +13,7 @@ from sys import argv, exit
 try:
     import tqdm
     from colorama import Fore, Style
-except ImportError:
+except:
     print 'pip install tqdm colorama'
 
 try:
